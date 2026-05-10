@@ -26,7 +26,7 @@ class Mico < Formula
   end
 
   def install
-    bin.install "mico"
+    bin.install Dir["mico_*"].first => "mico"
   end
 
   test do
