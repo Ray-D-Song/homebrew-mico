@@ -1,27 +1,27 @@
 class Mico < Formula
   desc "Migrate Docker containers between servers painlessly"
   homepage "https://github.com/Ray-D-Song/mico"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_intel do
-      url "https://github.com/Ray-D-Song/mico/releases/download/v0.1.1/mico_darwin_amd64"
-      sha256 "2f6177b4cd72ab4e2a2e9096cdcb3c4a042673b40c6b3b82eba8e5978ea81c8a"
+      url "https://github.com/Ray-D-Song/mico/releases/download/v0.1.2/mico_darwin_amd64"
+      sha256 "a4c1da16e1106b38baeb95600260d52c48ff6177419a62a3519379cd02c00202"
     end
     on_arm do
-      url "https://github.com/Ray-D-Song/mico/releases/download/v0.1.1/mico_darwin_arm64"
-      sha256 "b9afa226452d3a0bd29be4ae5eeec377e7165bf33a6e6410c83b1bfa2e1ac9db"
+      url "https://github.com/Ray-D-Song/mico/releases/download/v0.1.2/mico_darwin_arm64"
+      sha256 "5a773d12dfced6f75617561d4250190f1d5004e1cfcd0d794a8b19f9058e4b31"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Ray-D-Song/mico/releases/download/v0.1.1/mico_linux_amd64"
-      sha256 "4a168847fa86fa2a551b17e77219a3b740d32cb6dc6c75d772d666c382ad27aa"
+      url "https://github.com/Ray-D-Song/mico/releases/download/v0.1.2/mico_linux_amd64"
+      sha256 "def0a9fd5ac5e4a4067de8f5eab7f26acc8db7daf81cd9ac94c9be2133bc1dc3"
     end
     on_arm do
-      url "https://github.com/Ray-D-Song/mico/releases/download/v0.1.1/mico_linux_arm64"
-      sha256 "9b5ac1037ae4a153cde1ab48b948762a52a4a8ea92def686b8b0e84474f3d2f6"
+      url "https://github.com/Ray-D-Song/mico/releases/download/v0.1.2/mico_linux_arm64"
+      sha256 "dc6c594be947dc9d4c9d018c9e8bfc6cdc8dbf228b55898e40979c80e961bfe7"
     end
   end
 
